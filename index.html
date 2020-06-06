@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jesua Lujan">
+    <meta name="desciption" content="How to use flexbox">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Periodic Table of Programming</title>
+    <!-- CSS STYLES-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>The periodic table of Porgramming Languages</h1>
+    <h2>Visualisation of the evolution of popular Languages</h2>
+    
+    <div class="symbology">
+        <div class="category">
+            <div class="item-mechanical"></div>
+            <p class="text">Mechanical</p>
+            <div class="item-imperative"></div>
+            <p class="text">Imperative</p>
+            <div class="item-object-orientend"></div>
+            <p class="text">Object Orientend</p>
+            <div class="item-scripting"></div>
+            <p class="text">Scripting</p>
+            <div class="item-declarative"></div>
+            <p class="text">Declarative</p>
+        </div>
+        <div class="category">
+            <div class="item-functional"></div>
+            <p class="text">Functional</p>
+            <div class="item-dynamic"></div>
+            <p class="text">Dynamic</p>
+            <div class="item-concurrent"></div>
+            <p class="text">Concurrent</p>
+            <div class="item-multi-paradigm"></div>
+            <p class="text">Multi-paradigm</p>
+        </div>
+    </div>
+    
+    
+    
+    <!-- VAMOS A TENER UN CONTENEDOR PADRE Y CONTENEDORES HIJOS-->
+    <!-- GUÍA FLEXBOX: https://css-tricks.com/snippets/css/a-guide-to-flexbox/-->
+    <div class="periodic-table-main">
+        <div class="group">
+            <div class="element mechanical">
+                <!-- ABREBIATION SELECTOR FOR HTML abbr-->
+                <!--GROUP ONE-->
+                <p class="number">1</p>
+                <abbr class="symbol">A</abbr>
+                <p class="name">Analytical engine order code</p>
+            </div>
+            <div class="element imperative">
+                <p class="number">3</p>
+                <abbr class="symbol">Ft</abbr>
+                <p class="name">Fortran</p>
+            </div>
+            <div class="element imperative">
+                <p class="number">7</p>
+                <abbr class="symbol">Sn</abbr>
+                <p class="name">Snowbol</p>
+            </div>
+            <div class="element imperative">
+                <p class="number">13</p>
+                <abbr class="symbol">Fo</abbr>
+                <p class="name">Forth</p>
+            </div>
+            <div class="element concurrent">
+                <p class="number">22</p>
+                <abbr class="symbol">Ad</abbr>
+                <p class="name">Ada</p>
+            </div>
+            <div class="element imperative">
+                <p class="number">32</p>
+                <abbr class="symbol">Vb</abbr>
+                <p class="name">Visual Basic</p>
+            </div>
+        </div>
+
+          <!--GROUP TWO-->
+            <div class="group">
+                <div class="element imperative">
+                    <p class="number">4</p>
+                    <abbr class="symbol">Ag</abbr>
+                    <p class="name">ALGOL</p>
+                </div>
+                <div class="element imperative">
+                    <p class="number">8</p>
+                    <abbr class="symbol">Bs</abbr>
+                    <p class="name">Basic</p>
+                </div>
+                <div class="element imperative">
+                    <p class="number">14</p>
+                    <abbr class="symbol">Pc</abbr>
+                    <p class="name">Pascal</p>
+                </div>
+                <div class="element object-orientend">
+                    <p class="number">23</p>
+                    <abbr class="symbol">Cp</abbr>
+                    <p class="name">C++</p>
+                </div>
+                <div class="element object-orientend">
+                    <p class="number">33</p>
+                    <abbr class="symbol">Dp</abbr>
+                    <p class="name">Delphi</p>
+                </div>
+          </div>
+                
+           <!--GROUP THREE-->
+        <div class="group">
+
+            <div class="element object-orientend">
+                <p class="number">9</p>
+                <abbr class="symbol">Sm</abbr>
+                <p class="name">Simula</p>
+            </div>
+            <div class="element object-orientend">
+                <p class="number">15</p>
+                <abbr class="symbol">St</abbr>
+                <p class="name">Smalltalk</p>
+            </div>
+            <div class="element object-orientend">
+                <p class="number">24</p>
+                <abbr class="symbol">Ef</abbr>
+                <p class="name">Eiffel</p>
+            </div>
+            <div class="element object-orientend">
+                <p class="number">34</p>
+                <abbr class="symbol">Jv</abbr>
+                <p class="name">Java</p>
+            </div>
+      </div>
+
+         <!--GROUP FOUR-->
+         <div class="group">
+            <div class="element declarative">
+                <p class="number">16</p>
+                <abbr class="symbol">Sq</abbr>
+                <p class="name">SQL</p>
+            </div>
+            <div class="element object-orientend">
+                <p class="number">25</p>
+                <abbr class="symbol">Oc</abbr>
+                <p class="name">Objective C</p>
+            </div>
+            <div class="element multi-paradigm">
+                <p class="number">35</p>
+                <abbr class="symbol">Py</abbr>
+                <p class="name">Python</p>
+            </div>
+      </div>
+
+
+        <!--GROUP FIVE-->
+        <div class="group">
+            <div class="element declarative">
+                <p class="number">17</p>
+                <abbr class="symbol">Pg</abbr>
+                <p class="name">Prolog</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">26</p>
+                <abbr class="symbol">Ps</abbr>
+                <p class="name">PostScript</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">36</p>
+                <abbr class="symbol">As</abbr>
+                <p class="name">AppleScript</p>
+            </div>
+      </div>
+
+      
+        <!--GROUP SIX-->
+        <div class="group">
+            <div class="element  scripting">
+                <p class="number">27</p>
+                <abbr class="symbol">Tc</abbr>
+                <p class="name">Tcl</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">37</p>
+                <abbr class="symbol">Cf</abbr>
+                <p class="name">Coldfusion</p>
+            </div>
+      </div>
+
+         <!--GROUP SEVEN-->
+         <div class="group">
+            <div class="element imperative">
+                <p class="number">18</p>
+                <abbr class="symbol">C</abbr>
+                <p class="name">C</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">28</p>
+                <abbr class="symbol">Ht</abbr>
+                <p class="name">HyperTalk</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">38</p>
+                <abbr class="symbol">Js</abbr>
+                <p class="name">JavaScript</p>
+            </div>
+      </div>
+
+        <!--GROUP EIGHT-->
+        <div class="group">
+            <div class="element imperative">
+                <p class="number">10</p>
+                <abbr class="symbol">P</abbr>
+                <p class="name">PL/1</p>
+            </div>
+            <div class="element imperative">
+                <p class="number">19</p>
+                <abbr class="symbol">M</abbr>
+                <p class="name">Modula</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">29</p>
+                <abbr class="symbol">Pl</abbr>
+                <p class="name">Perl</p>
+            </div>
+            <div class="element scripting">
+                <p class="number">39</p>
+                <abbr class="symbol">Pp</abbr>
+                <p class="name">PHP</p>
+            </div>
+      </div>
+
+        <!--GROUP NINE-->
+        <div class="group">
+            <div class="element imperative">
+                <p class="number">5</p>
+                <abbr class="symbol">Cb</abbr>
+                <p class="name">COBAL</p>
+            </div>
+            <div class="element imperative">
+                <p class="number">11</p>
+                <abbr class="symbol">B</abbr>
+                <p class="name">B</p>
+            </div>
+            <div class="element functional">
+                <p class="number">20</p>
+                <abbr class="symbol">Ml</abbr>
+                <p class="name">ML</p>
+            </div>
+            <div class="element functional">
+                <p class="number">30</p>
+                <abbr class="symbol">Cl</abbr>
+                <p class="name">Common LISPc</p>
+            </div>
+            <div class="element functional">
+                <p class="number">40</p>
+                <abbr class="symbol">Fs</abbr>
+                <p class="name">F#</p>
+            </div>
+      </div>
+
+
+        <!--GROUP TEN-->
+        <div class="group">
+            <div class="element mechanical">
+                <p class="number">2</p>
+                <abbr class="symbol">E</abbr>
+                <p class="name">ENIAC Short Code</p>
+            </div>
+            <div class="element functional">
+                <p class="number">6</p>
+                <abbr class="symbol">L</abbr>
+                <p class="name">LISP</p>
+            </div>
+            <div class="element functional">
+                <p class="number">12</p>
+                <abbr class="symbol">Lg</abbr>
+                <p class="name">LOGO</p>
+            </div>
+            <div class="element functional">
+                <p class="number">21</p>
+                <abbr class="symbol">Sc</abbr>
+                <p class="name">Scheme</p>
+            </div>
+            <div class="element functional">
+                <p class="number">31</p>
+                <abbr class="symbol">Er</abbr>
+                <p class="name">Erlang</p>
+            </div>
+            <div class="element functional">
+                <p class="number">41</p>
+                <abbr class="symbol">Hk</abbr>
+                <p class="name">Haskelc</p>
+            </div>
+      </div>       
+    </div>
+
+    <!-- PERIODIC TABLE GROUP 2 -->
+    <div class="periodic-table-main">
+       <div class="description-text">
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsa explicabo doloribus reprehenderit. Fuga ut laborum ullam illo rerum sunt?
+        </p>
+       </div>
+        <div class="element multi-paradigm">
+            <p class="number">42</p>
+            <abbr class="symbol">Cs</abbr>
+            <p class="name">C#</p>
+        </div>
+        <div class="element multi-paradigm">
+            <p class="number">43</p>
+            <abbr class="symbol">Sl</abbr>
+            <p class="name">Scala</p>
+        </div>
+        <div class="element dynamic">
+            <p class="number">44</p>
+            <abbr class="symbol">Gv</abbr>
+            <p class="name">Groovy</p>
+        </div>
+        <div class="element dynamic">
+            <p class="number">45</p>
+            <abbr class="symbol">Rb</abbr>
+            <p class="name">Ruby</p>
+        </div>
+        <div class="element concurrent">
+            <p class="number">46</p>
+            <abbr class="symbol">G</abbr>
+            <p class="name">Go</p>
+        </div>
+        <div class="element multi-paradigm">
+            <p class="number">47</p>
+            <abbr class="symbol">Cj</abbr>
+            <p class="name">Clojure</p>
+        </div>
+        <div class="description-text2">
+        <p class="description2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eaque animi, nam accusamus fuga corrupti doloribus laudantium omnis ullam porro?
+        </p>
+    </div>
+    </div>
+</body>
+</html>

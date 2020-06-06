@@ -1,0 +1,283 @@
+/*DEFINIENDO NUESTRAS VARIABLES*/
+:root {
+  --yellow: #c9b938;
+  --pink: #d2427f;
+  --blue: #28a6da;
+  --green: #6aa32e;
+  --white: #fff;
+  --black: #000;
+  --red: #bd0000;
+  --purple: #9859b6;
+  --orange: #ff8000;
+  --lightblue: #4deeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202e38;
+  font-family: "Roboto Mono", monospace;
+  color: var(--white);
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+h2 {
+  font-size: 20px;
+}
+
+.symbology {
+  width: 300px;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  margin-left: 540px;
+}
+
+.category {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.item-mechanical {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--red);
+}
+
+.item-imperative {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--yellow);
+}
+.item-object-orientend {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--orange);
+}
+.item-scripting {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--green);
+}
+.item-declarative {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--purple);
+}
+
+.item-functional{
+    width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--blue);
+}
+.item-dynamic{
+    width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--pink);
+}
+.item-concurrent{
+    width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--white);
+}
+.item-multi-paradigm{
+    width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: var(--lightblue);
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  margin-top: -12px;
+  display: block;
+  margin-left: 20px;
+}
+
+.periodic-table-main {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: -100px;
+}
+
+.element {
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.number {
+  text-align: right;
+  font-size: 8px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.symbol {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-left: 5px;
+}
+
+.name {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: capitalize; /*EL INICIO DE CADA PALABRA INCIE CON MAYÚSCULA*/
+  padding-left: 5px;
+}
+
+.capital-letter {
+  text-transform: uppercase;
+}
+
+.mechanical {
+  border: 5px solid var(--red);
+  color: var(--red);
+}
+
+.imperative {
+  border: 5px solid var(--yellow);
+  color: var(--yellow);
+}
+
+.object-orientend {
+  border: 5px solid var(--orange);
+  color: var(--orange);
+}
+
+.scripting {
+  border: 5px solid var(--green);
+  color: var(--green);
+}
+
+.declarative {
+  border: 5px solid var(--purple);
+  color: var(--purple);
+}
+
+.functional {
+  border: 5px solid var(--blue);
+  color: var(--blue);
+}
+
+.dynamic {
+  border: 5px solid var(--pink);
+  color: var(--pink);
+}
+
+.concurrent {
+  border: 5px solid var(--white);
+  color: var(--white);
+}
+
+.multi-paradigm {
+  border: 5px solid var(--lightblue);
+  color: var(--lightblue);
+}
+
+.element:hover {
+  transform: scale(1.1);
+  color: var(--black);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.mechanical:hover {
+  background: var(--red);
+}
+
+.imperative:hover {
+  background: var(--yellow);
+}
+
+.object-orientend:hover {
+  background: var(--orange);
+}
+
+.scripting:hover {
+  background: var(--green);
+}
+
+.declarative:hover {
+  background: var(--purple);
+}
+
+.functional:hover {
+  background: var(--blue);
+}
+
+.dynamic:hover {
+  background: var(--pink);
+}
+
+.concurrent:hover {
+  background: var(--white);
+}
+
+.multi-paradigm:hover {
+  background: var(--lightblue);
+}
+
+.description-text{
+    width: 150px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+}
+
+
+.description-text2{
+    width: 150px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+}
