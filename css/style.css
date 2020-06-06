@@ -272,12 +272,12 @@ h2 {
 
 
 .description-text2{
-    width: 150px;
-    display: inline-block;
-    font-size: 10px;
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin: auto;
+  width: 150px;
+  display: inline-block;
+  font-size: 10px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
 }
